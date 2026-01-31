@@ -62,7 +62,7 @@ http://localhost:4200
 
 File:
 ```
-src/environments/environment.ts
+src/environments/environment.development.ts
 ```
 
 ```ts

@@ -1,0 +1,29 @@
+<nav class="navbar">
+
+  <!-- Left -->
+  <div class="left">
+    <span class="logo">MEAN App</span>
+  </div>
+
+  <!-- Center -->
+  <!-- <div class="center">
+    <app-weather></app-weather>
+  </div> -->
+
+  <!-- Right -->
+   @if(username){
+ <div class="right" >
+  <app-weather></app-weather>
+    <span class="welcome">Welcome, {{ username }}</span>
+
+    <!-- Profile Icon -->
+    <div class="profile-icon">
+      👤
+    </div>
+
+    <button class="logout" (click)="logout()">Logout</button>
+  </div>
+   }
+
+
+</nav>

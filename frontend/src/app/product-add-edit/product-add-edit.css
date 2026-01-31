@@ -1,0 +1,35 @@
+.compact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;           /* Space between rows ↕️ */
+  padding-top: 10px !important;
+  max-width: 500px;    /* Keeps the dialog from stretching too wide ↔️ */
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr; /* Name gets 2/3, Price gets 1/3 */
+  gap: 16px;           /* Perfect space between inputs */
+}
+
+.full-width {
+  width: 100%;
+}
+
+/* Reduces internal padding of Material inputs for a slimmer look */
+::ng-deep .mat-mdc-text-field-wrapper {
+  padding: 0 12px !important;
+}
+/* Add this to your GLOBAL styles.css file */
+.success-snackbar.mat-mdc-snack-bar-container .mdc-snackbar__surface {
+  background-color: #4caf50 !important; /* Professional Green 🟢 */
+}
+
+.success-snackbar .mdc-snackbar__label {
+  color: white !important;
+  font-weight: 500;
+}
+
+.success-snackbar .mat-mdc-snack-bar-action button {
+  color: white !important;
+}

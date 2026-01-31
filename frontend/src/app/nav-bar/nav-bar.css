@@ -1,0 +1,42 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #1976d2;
+  color: #fff;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.center {
+  font-size: 14px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.profile-icon {
+  width: 32px;
+  height: 32px;
+  background: #fff;
+  color: #1976d2;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.logout {
+  background: #fff;
+  color: #1976d2;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+}

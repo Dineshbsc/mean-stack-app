@@ -1,0 +1,8 @@
+@if (weather$ | async; as data) {
+    <div class="weather-compact">
+      <span class="city">{{ data.city }}</span>
+      <span class="separator">|</span>
+      <span class="temp">{{ data.temp }}°C</span>
+      <span class="condition">{{ data.condition }}</span>
+    </div>
+  }

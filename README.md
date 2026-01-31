@@ -93,9 +93,17 @@ Fields:
 - Displayed in the navigation bar
 
 ---
+---
+
+## 📸 Database Screenshots
+
+### MongoDB
+![MongoDB](mongo-db.png)
+
+### MySQL
+![MySQL](mysql-db.png)
 
 ## 👤 Author
-Thank You
 Dinesh Kumar G  
 Angular & Node.js Developer
 
